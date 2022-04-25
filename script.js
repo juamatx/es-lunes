@@ -4,7 +4,7 @@ let day = d.getDay();
 
 console.log(day)
 if(day===1){
-    document.getElementById('lunes').innerText = 'Es LuLala'
+    document.getElementById('lunes').innerText = 'Es Lunes'
     document.styleSheets[0].insertRule(":root{background-color: #F97D0B;}")
 }
 else{
